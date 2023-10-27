@@ -1,0 +1,133 @@
+@import url(https://fonts.googleapis.com/css?family=roboto:wght@100;200;300;400;500;600;700;800;900&display=swap);
+*{
+   font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+}
+h2{
+    font-size: 30px;
+    line-height: 42px;
+    color: black;
+}
+p{
+    font-size: 12px;
+    color: #465b52;
+}
+
+.container{
+    position: relative;
+}
+.marstrove{
+    position: absolute;
+    top: 0px;
+    color: white;
+    text-align: center;
+    width: 100%;
+    height: 76px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.nav_bar2{
+    
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
+}
+.nav_bar2 li{
+     list-style: none;
+     padding: 0 30px;
+     position: relative;
+}
+.nav_bar2 li a{
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
+    transition: 0.4s ease;
+
+}
+.marstrove:hover {
+    background-color: white;
+    color: black;
+}
+.marstrove:hover a {
+    background-color: white;
+    color: black;
+}
+.marstrove:hover li{
+    background-color: white;
+    color: black;
+}
+.nav_bar{
+    font-size: 40px;
+    font-weight: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 2px;
+    padding-bottom: 10px;
+}
+.search_button{
+    text-align: left;
+    float: left;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    font-weight:10px;
+    padding-left: 50px;
+}
+.cart_button{
+    text-align: left;
+    float: right;
+    font-size: small;
+    text-decoration: none;
+    color: white;
+    font-weight:10px;
+    padding-right: 50px;
+}
+.nav_bar2 li a:hover,
+.nav_bar2 li a.active{
+    color: aqua;
+}
+.nav_bar2 li a.active::after{
+    content: "";
+    width: 30%;
+    height: 2px;
+    background-color: aqua;
+    position: absolute;
+    bottom: -4px;
+    left: 33px;
+}
+#product1 .pro-container{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    flex-wrap: wrap;
+}
+#product1{
+    text-align: center;
+}
+#product1 .pro{
+    padding: 5px 5px;
+    cursor: pointer;
+    
+}
+#product1 .pro img{
+    width: 100%;
+    border-radius: 7%;
+    height: 210px;
+    width: 184px;
+
+}
+#product1 .pro img:hover{
+    opacity: 0.7;
+}
+
+
+h5,h4{
+    text-align: start;
+}
+.footer{
+    background-color: #946D43;
+    height: 75px;
+}
